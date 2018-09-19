@@ -10,16 +10,33 @@
 #### 安装教程
 
 1. 部署到web项目
-2. 修改config里面参数
+2. 修改application下的config里面参数
+
+注册企业微信（https://work.weixin.qq.com ），
+1.获取CorpID
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133004_e6f57ab7_327005.png "企业微信1.png")
+2.获取AgentID，和SECRET，需要 在后台新建一个应用：
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133015_1f1e0077_327005.png "企业微信2.png")
+
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133027_3c51d16a_327005.png "企业微信3.png")
+```
+//微信企业接口调配置
+    'weichat_entper_api_setting' => [ 
+        "CorpID" => "ww1e7*******",
+        "AgentID" => "1000005",
+        "SECRET" => "5rG9gsMKKGGgvu0WKfjRfkmu33WA1GwRkMTiJkcce_Y",
+    ],
+```
+
 
 #### 使用说明
 
-1. 查看pdf
+1.找到项目管理的WebHooks
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133227_f19dea1c_327005.png "webHOOK1.png")
+2.添加WebHooks
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133237_5eeeb9a0_327005.png "webHOOK2.png")
 
-#### 参与贡献
+#### 体验
 
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133300_6118e261_327005.png "测试体验.png")
 
