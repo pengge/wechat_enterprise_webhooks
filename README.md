@@ -34,7 +34,7 @@
 1.找到项目管理的WebHooks
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133227_f19dea1c_327005.png "webHOOK1.png")
 2.添加WebHooks
-![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133237_5eeeb9a0_327005.png "webHOOK2.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2018/0919/133828_e95de341_327005.jpeg "TIM截图20180919133722.jpg")
 
 #### 体验
 
